@@ -5,8 +5,9 @@
 	font-weight: normal
 	font-style: normal
 
-$icon-sepa: "\EA01"
-$icon-skrill: "\EA02"
+$icon-phone: "\EA01"
+$icon-sepa: "\EA02"
+$icon-skrill: "\EA03"
 
 
 %icon
@@ -23,6 +24,8 @@ $icon-skrill: "\EA02"
 	@extend %icon
 	display: inline-block
 
+.icon-phone:before
+	content: $icon-phone
 .icon-sepa:before
 	content: $icon-sepa
 .icon-skrill:before

@@ -94,11 +94,14 @@
       -moz-osx-font-smoothing: grayscale;
     }
     
-    .icon-sepa:before {
+    .icon-phone:before {
       content: "\EA01";
     }
-    .icon-skrill:before {
+    .icon-sepa:before {
       content: "\EA02";
+    }
+    .icon-skrill:before {
+      content: "\EA03";
     }
   </style>
 </head>
@@ -113,8 +116,16 @@
   <ul class="icons-list">
     
     <li class="icon-box">
-      <input class="icon-class-name autoselect" type="text" value=".icon-sepa" readonly>
+      <input class="icon-class-name autoselect" type="text" value=".icon-phone" readonly>
       <input class="icon-unicode autoselect" type="text" value="\EA01" readonly>
+      <div class="icon-container">
+        <i class="icon icon-phone"></i>
+      </div>
+    </li>
+    
+    <li class="icon-box">
+      <input class="icon-class-name autoselect" type="text" value=".icon-sepa" readonly>
+      <input class="icon-unicode autoselect" type="text" value="\EA02" readonly>
       <div class="icon-container">
         <i class="icon icon-sepa"></i>
       </div>
@@ -122,7 +133,7 @@
     
     <li class="icon-box">
       <input class="icon-class-name autoselect" type="text" value=".icon-skrill" readonly>
-      <input class="icon-unicode autoselect" type="text" value="\EA02" readonly>
+      <input class="icon-unicode autoselect" type="text" value="\EA03" readonly>
       <div class="icon-container">
         <i class="icon icon-skrill"></i>
       </div>

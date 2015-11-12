@@ -1,7 +1,11 @@
 $icons: (0:0)
-$icons: map-merge($icons,(codedby: (X: -53px, Y:-56px, W: 47px, H: 5px, TW: 152px, TH: 61px, IMG: '../img/icons.png')))
-$icons: map-merge($icons,(coderiver: (X: 0px, Y:-56px, W: 49px, H: 5px, TW: 152px, TH: 61px, IMG: '../img/icons.png')))
-$icons: map-merge($icons,(logo: (X: 0px, Y:0px, W: 152px, H: 52px, TW: 152px, TH: 61px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(cart: (X: -121px, Y:-123px, W: 114px, H: 107px, TW: 428px, TH: 240px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(codedby: (X: -329px, Y:-56px, W: 47px, H: 5px, TW: 428px, TH: 240px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(coderiver: (X: -276px, Y:-56px, W: 49px, H: 5px, TW: 428px, TH: 240px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(freedom: (X: 0px, Y:0px, W: 134px, H: 119px, TW: 428px, TH: 240px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(logo: (X: -276px, Y:0px, W: 152px, H: 52px, TW: 428px, TH: 240px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(money: (X: -138px, Y:0px, W: 134px, H: 112px, TW: 428px, TH: 240px, IMG: '../img/icons.png')))
+$icons: map-merge($icons,(original: (X: 0px, Y:-123px, W: 117px, H: 117px, TW: 428px, TH: 240px, IMG: '../img/icons.png')))
 
 
 // Gets an attribute from the sass map
@@ -37,21 +41,45 @@ $icons: map-merge($icons,(logo: (X: 0px, Y:0px, W: 152px, H: 52px, TW: 152px, TH
 @mixin sr($i)
 	+sprite-retina($i)	
 
-//
+
+.icon-cart
+	width: 114px
+	height: 107px
+	background-image: url('../img/icons.png')
+	background-position: -121px -123px
+
 //.icon-codedby
 //	width: 47px
 //	height: 5px
 //	background-image: url('../img/icons.png')
-//	background-position: -53px -56px
+//	background-position: -329px -56px
 //
 //.icon-coderiver
 //	width: 49px
 //	height: 5px
 //	background-image: url('../img/icons.png')
-//	background-position: 0px -56px
+//	background-position: -276px -56px
 //
+.icon-freedom
+	width: 134px
+	height: 119px
+	background-image: url('../img/icons.png')
+	background-position: 0px 0px
+
 .icon-logo
 	width: 152px
 	height: 52px
 	background-image: url('../img/icons.png')
-	background-position: 0px 0px
+	background-position: -276px 0px
+
+.icon-money
+	width: 134px
+	height: 112px
+	background-image: url('../img/icons.png')
+	background-position: -138px 0px
+
+.icon-original
+	width: 117px
+	height: 117px
+	background-image: url('../img/icons.png')
+	background-position: 0px -123px
