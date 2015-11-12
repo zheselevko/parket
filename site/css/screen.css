@@ -21,6 +21,16 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
 body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 
+@font-face { font-family: Tahoma-reg; src: url("fonts/Tahoma.eot"); src: url("fonts/Tahoma.eot?#iefix") format("embedded-opentype"), url("fonts/Tahoma.woff2") format("woff2"), url("fonts/Tahoma.woff") format("woff"), url("fonts/Tahoma.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+.container { width: 1180px; margin: 0 auto; -webkit-box-sizing: border-box; box-sizing: border-box; *zoom: 1; }
+.container:after { content: " "; display: table; clear: both; }
+
+.left { float: left; }
+
+.right { float: right; }
+
+.icon-logo { width: 152px; height: 52px; background-image: url("../img/icons.png"); background-position: 0px 0px; }
+
 @font-face { font-family: "svgfont"; src: url("fonts/svgfont.eot"); src: url("fonts/svgfont.eot?#iefix") format("eot"), url("fonts/svgfont.woff") format("woff"), url("fonts/svgfont.woff2") format("woff2"), url("fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 .icon, [class^="icon-"], [class*=" icon-"] { font-family: "svgfont"; font-style: normal; font-weight: normal; text-rendering: auto; speak: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
@@ -34,11 +44,25 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
+
+.out { width: 1500px; margin: 0 auto; }
+
+.header { width: 100%; -webkit-box-sizing: border-box; box-sizing: border-box; *zoom: 1; background: url("../img/header_bg.png") 0 0 no-repeat; height: 670px; }
+.header:after { content: " "; display: table; clear: both; }
+.header .header__top { width: 100%; height: 102px; background: url("../img/top_bg.png") 0 0 no-repeat; position: relative; z-index: 2; }
+.header .header__top .wrap { padding: 13px 80px; *zoom: 1; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.header .header__top .wrap:after { content: " "; display: table; clear: both; }
+.header .header__top .wrap .contacts { width: 415px; }
+.header .header__top .wrap .contacts .phones { width: 175px; }
+.header .header__top .wrap .contacts .phones .tel { width: 100%; float: left; color: white; font-family: "reg"; line-height: 1; font-size: 23px; margin-bottom: 8px; font-weight: 500; }
+.header .header__top .wrap .contacts .callback a { display: inline-block; width: 221px; height: 51px; border: 2px solid white; -webkit-border-radius: 10px; border-radius: 10px; color: white; font-family: Arial; font-size: 24px; font-weight: 400; text-decoration: none; text-align: center; line-height: 48px; }
+.header .header__ttl { width: 100%; height: 106px; position: relative; z-index: 1; margin-top: -22px; background: url("../img/ttl_bg.png") 50% 0 no-repeat; }
+.header .header__ttl .box { padding: 8px 202px; text-align: center; -webkit-box-sizing: border-box; box-sizing: border-box; *zoom: 1; }
+.header .header__ttl .box:after { content: " "; display: table; clear: both; }
+.header .header__ttl .box h3 { color: #444; font-family: Arial; font-size: 33px; font-weight: 700; line-height: 1; }
+.header .header__ttl .box p { color: #747474; font-family: Arial; font-size: 18px; font-weight: 400; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
-@media only screen and (max-width: 1024px){
- div{ display: block; }
- p{ background: red; } }
 
 
 
