@@ -61,6 +61,18 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .header .header__ttl .box:after { content: " "; display: table; clear: both; }
 .header .header__ttl .box h3 { color: #444; font-family: Arial; font-size: 33px; font-weight: 700; line-height: 1; }
 .header .header__ttl .box p { color: #747474; font-family: Arial; font-size: 18px; font-weight: 400; }
+.header .header__action { width: 448px; height: 443px; margin: 10px auto 0; }
+.header .header__action .form { width: 448px; height: 438px; background: url("../img/act_bg.png") 0 0 no-repeat; }
+.header .header__action .form .box { padding: 0 17px 0 21px; }
+.header .header__action .form .box .title { text-shadow: 3.1px 3.9px 5px rgba(0, 0, 0, 0.36); color: white; font-family: Arial; font-size: 48px; text-align: center; font-weight: 700; }
+.header .header__action .form .box .sub_title { width: 410px; height: 61px; background-color: rgba(69, 79, 0, 0.4); font-family: Arial; font-size: 24px; color: white; font-weight: 400; text-align: center; line-height: 28px; }
+.header .header__action .form .box .sub_title span { color: #faff34; font-weight: 700; }
+.header .header__action .form .box .head { text-align: center; color: #444444; font-family: "reg"; font-size: 24px; font-weight: 400; }
+.header .header__action .form .box .counter { width: 360px; margin: 0 auto; height: 71px; }
+.header .header__action .form .box .counter .item { width: 65px; display: inline-block; height: 52px; background: url("../img/count_bg.png") 0 0 no-repeat; vertical-align: top; margin-right: 30px; text-align: center; color: #444444; font-family: Arial; font-size: 15px; font-weight: 400; }
+.header .header__action .form .box .counter .item:last-child { margin-right: 0; }
+.header .header__action .form .box .counter .item span { letter-spacing: 13px; color: white; font-family: Arial; font-size: 40px; display: block; text-indent: 4px; font-weight: 700; line-height: 52px; }
+.header .header__action .info { text-align: center; color: #444; font-family: "reg"; font-size: 16px; font-weight: 400; line-height: 1; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
 
