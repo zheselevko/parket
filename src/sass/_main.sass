@@ -105,7 +105,7 @@
 					font-weight: 400
 				.counter
 					width: 360px
-					margin: 0 auto
+					margin: 0 auto 7px
 					height: 71px
 					.item
 						width: 65px
@@ -130,6 +130,55 @@
 							text-indent: 4px
 							font-weight: 700
 							line-height: 52px
+				form
+					width: 360px
+					margin: 0 auto
+					.input-group
+						margin-bottom: 10px
+						position: relative
+						input
+							width: 274px
+							height: 44px
+							padding: 0 43px
+							background-color: white
+							box-shadow: inset 2.3px 2.6px 4.8px 0.8px rgba(0, 0, 0, 0.48)
+							color: rgb(160, 160, 160)
+							font-family: Arial
+							font-size: 24px
+							font-weight: 400
+						label
+							margin-bottom: 0
+							cursor: pointer
+						label[for="tel"]
+							&:before
+								content: ''
+								position: absolute
+								left: 10px 
+								top: 50%
+								margin-top: -12px
+								width: 22px
+								height: 24px
+								background: url("../img/tel.png") 0 0 no-repeat
+						label[for="name"]
+							&:before
+								content: ''
+								position: absolute
+								left: 10px 
+								top: 50%
+								margin-top: -12px
+								width: 20px
+								height: 24px
+								background: url("../img/login.png") 0 0 no-repeat
+					.button
+						text-align: center
+						input
+							width: 224px
+							height: 57px
+							background: url("../img/btn.png") 0 3px no-repeat
+							color: white
+							font-family: Arial
+							font-size: 24px
+							font-weight: 400
 		.info
 			text-align: center
 			color: #444
